@@ -6,7 +6,6 @@ RSpec.describe BirthdayList do
 
   it 'adds a birthday' do
     birthday_list = BirthdayList.new
-
     expect(birthday_list.add('Guy Fawkes', "13 April 1570")).to eq [{ name: 'Guy Fawkes', birthday: "13 April 1570" }]
   end
 

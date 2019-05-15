@@ -34,7 +34,7 @@ class Birthday_list
   end
 
   def convert_today
-    today = Date.today
+    today = Date.today #format yyyy-mm-dd to dd-mm-yyyy
     date = today.to_s.split("-")
     convert_date = []
     convert_date.push(date[2])
